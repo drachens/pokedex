@@ -1,0 +1,364 @@
+@font-face{
+	font-family: "pokemon";
+	src:url("PokemonGb-RAeo.ttf");
+}
+body{
+	font-family: "pokemon";
+	background-image: url(./fondoo.jpg);
+}
+
+.fondo{
+	height: 100%;
+	width: 100%;
+}
+.pokedex{
+	overflow: scroll;
+	height: 200px;
+	width: 500px;
+}
+
+li#pokedex_item{
+	position: relative;
+	padding: 15px;
+	border-width: 1px;
+	border-style: solid;
+	height: 19px;
+	width: 90%;
+	list-style: none;
+	text-decoration: none;
+	color: #011d35;
+}
+img#pokedex{
+	height: 580px;
+	width: 830px;
+	position: absolute;
+	margin-right: 190px;
+	margin-left: 190px;
+	margin-bottom: 190px;
+}
+ul.pokedex{
+	overflow: scroll;
+	height: 217px;
+	width: 340px;
+	position: absolute;
+	margin-left: 191px;
+	padding-top: 0px;
+	margin-top: 158px;
+}
+p#pokedex{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding-left:30px;
+	margin-bottom: 7px;
+}
+p#nombre_pokemon{
+	position: relative;
+	float: right;
+	display: inline-block;
+	margin: 0;
+	padding-right: 30px;
+}
+div.pokedex_description{
+	position: absolute;
+	margin-left: 688px;
+	margin-top: 174px;
+	height: 173px;
+	width: 241px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+div.pokedex_description p{
+	font-size: 12px;
+	letter-spacing: -1px;
+}
+div.pokedex_description p{
+	position: relative;
+	float: left;
+	margin-left: 5px
+	margin-bottom:0px;
+	margin-top: 0px;
+}
+p#ataque_pokemon{
+	margin-bottom: 0px;
+	clear: left;
+	margin-top: 0px;
+}
+p#habilidad{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+p#defensa_pokemon{
+	position: relative;
+	float: left;
+	margin-bottom:0px;
+	margin-top: 0px;
+	clear: left;
+}
+p#tipo_pokemon{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+}
+p#name_pokemon{
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+p#vida_pokemon{
+	clear: left;
+	margin-bottom: 0px;
+}
+p#defensa_especial{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+p#ataque_especial{
+		margin-bottom:0px;
+	margin-top: 0px;
+}
+ul#ataques{
+
+}
+li.ataques{
+	list-style: none;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-style: solid;
+	border-width: 1px;
+	height: 70px;
+	width: 238px;
+}
+
+li.ataques p{
+	position: relative;
+	float: left;
+	clear: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	padding-left: 2px;
+
+}
+ul#ataques{
+	margin:0px;
+	padding: 0px;
+	width: 260px;
+	height: 125px;
+	clear: left;
+}
+div#BotonAtaques{
+	position: absolute;
+	margin-top: 451px;
+	margin-left: 810px;
+	height: 15px;
+	width: 54px;
+	padding: 0px;
+	border-style: none;
+	border-width: 0.5px;
+	border-radius: 19px;
+	padding-left: 7px;
+	padding-top: 3px;
+}
+p#BotonAtaques{
+	font-size: 10px;
+	font-family: sans-serif;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	height: 13px;
+
+}
+div#BotonAtaques a{
+	text-decoration: none;
+	color: black;
+}
+div#insertar{
+position: absolute;
+margin-top: 495px;
+margin-left: 303px;
+padding: 0px;
+height: 55px;
+width: 120px;
+
+}
+div#insertar a{
+	position: absolute;
+	width: 121px;
+	height: 55px;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+
+}
+div#insertar a:active{
+	background-color: #d5a900;
+}
+div#insertar a p{
+	position: absolute;
+	font-size: 14px;
+height: 12px;
+padding: 5px;
+margin-top: 16px;
+padding-left: 17px;
+}
+div.pokedex_description form{
+	overflow: scroll;
+	height: 152px;
+	width: 260px;
+}
+div.pokedex_description form label{
+	font-size: 12px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+div.pokedex_description form input{
+	margin-bottom: 10px;
+	background: #daffd6;
+}
+div#update{
+	position: absolute;
+	margin-top: 453px;
+	margin-left: 308px;
+	width: 53px;
+	height: 16px;
+}
+div#update a{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	height: 15px;
+	width: 55px;
+	margin-left: -2px;
+	position: absolute;
+	text-decoration: none;
+	color: black;
+}
+div#update a:active{
+
+}
+div#update a p{
+	font-size: 8px;
+	margin: 0;
+	padding-bottom: -5px;
+	margin-bottom: 0px;
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 3px;
+
+}
+div#delete{
+	position: absolute;
+	margin-top: 453px;
+	margin-left: 380px;
+	width: 53px;
+	height: 16px;
+}
+div#delete a{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	height: 15px;
+	width: 55px;
+	margin-left: -2px;
+	position: absolute;
+	text-decoration: none;
+	color: black;
+}
+div#delete a:active{
+
+}
+div#delete a p{
+	font-size: 8px;
+	margin: 0;
+	padding-bottom: -5px;
+	margin-bottom: 0px;
+	position: absolute;
+	margin-top: 4px;
+	margin-left: 3px;
+
+}
+div.pokedex_description p#deletePokemon{
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+
+}
+div.pokedex_description p#deletePokedex{
+	font-size: 16px;
+	margin-left: 17px;
+	position: relative;
+	float: left;
+	margin-top: 14px;
+}
+div.pokedex_description p#deleteNombre{
+	position: relative;
+	float: right;
+	margin-right: 17px;
+	font-size: 16px;
+	margin-top: 14px;
+}
+div.pokedex_description form input#botonEliminar{
+            
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #E76E55;
+	box-shadow: inset -4px -4px 6px 1px #8C2022;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: 100px;
+	height: 35px;
+	margin-left: 65px;
+	margin-top: 0px;
+	border-radius: 10px;
+	border-style: none;
+
+}
+div.pokedex_description form input#botonUpdate{        
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #35ca04;
+	box-shadow: inset -4px -4px 6px 1px #8C2022;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: 100px;
+	height: 35px;
+	margin-left: 65px;
+	margin-top: 0px;
+	border-radius: 10px;
+	border-style: none;
+
+}
+div.pokedex_description form input#botonInsert{
+            
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: #fcfa00;
+	box-shadow: inset -4px -4px 6px 1px #8C2022;
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	width: 100px;
+	height: 35px;
+	margin-left: 65px;
+	margin-top: 0px;
+	border-radius: 10px;
+	border-style: none;
+
+}
+div.pokedex_description form label{
+	position: relative;
+	float: left;
+	clear: left;
+}
