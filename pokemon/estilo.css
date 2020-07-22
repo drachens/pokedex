@@ -1,0 +1,208 @@
+@import "https://fonts.googleapis.com/css?family=Passion+One:400, 700|Roboto:900";
+nav .li-1 {
+  border-bottom: 0.5rem solid #919191;
+}
+nav .li-1:hover {
+  background-color: #919191;
+  transition: all ease .5s;
+}
+nav .li-1:hover a span {
+  color: white;
+}
+
+#li-1:target {
+  background-color: #919191;
+}
+#li-1:target a span {
+  color: white;
+}
+
+nav .li-1 a span {
+  color: #919191;
+}
+
+nav .li-2 {
+  border-bottom: 0.5rem solid #E3350D;
+}
+nav .li-2:hover {
+  background-color: #E3350D;
+  transition: all ease .5s;
+}
+nav .li-2:hover a span {
+  color: white;
+}
+
+#li-2:target {
+  background-color: #E3350D;
+}
+#li-2:target a span {
+  color: white;
+}
+
+nav .li-2 a span {
+  color: #E3350D;
+}
+
+nav .li-3 {
+  border-bottom: 0.5rem solid #ee6b2f;
+}
+nav .li-3:hover {
+  background-color: #ee6b2f;
+  transition: all ease .5s;
+}
+nav .li-3:hover a span {
+  color: white;
+}
+
+#li-3:target {
+  background-color: #ee6b2f;
+}
+#li-3:target a span {
+  color: white;
+}
+
+nav .li-3 a span {
+  color: #ee6b2f;
+}
+
+nav .li-4 {
+  border-bottom: 0.5rem solid #e6bc2f;
+}
+nav .li-4:hover {
+  background-color: #e6bc2f;
+  transition: all ease .5s;
+}
+nav .li-4:hover a span {
+  color: white;
+}
+
+#li-4:target {
+  background-color: #e6bc2f;
+}
+#li-4:target a span {
+  color: white;
+}
+
+nav .li-4 a span {
+  color: #e6bc2f;
+}
+
+nav .li-5 {
+  border-bottom: 0.5rem solid #30a7d7;
+}
+nav .li-5:hover {
+  background-color: #30a7d7;
+  transition: all ease .5s;
+}
+nav .li-5:hover a span {
+  color: white;
+}
+
+#li-5:target {
+  background-color: #30a7d7;
+}
+#li-5:target a span {
+  color: white;
+}
+
+nav .li-5 a span {
+  color: #30a7d7;
+}
+
+nav .li-6 {
+  border-bottom: 0.5rem solid #1b53ba;
+}
+nav .li-6:hover {
+  background-color: #1b53ba;
+  transition: all ease .5s;
+}
+nav .li-6:hover a span {
+  color: white;
+}
+
+#li-6:target {
+  background-color: #1b53ba;
+}
+#li-6:target a span {
+  color: white;
+}
+
+nav .li-6 a span {
+  color: #1b53ba;
+}
+
+nav .li-7 {
+  border-bottom: 0.5rem solid #4dad5b;
+}
+nav .li-7:hover {
+  background-color: #4dad5b;
+  transition: all ease .5s;
+}
+nav .li-7:hover a span {
+  color: white;
+}
+
+#li-7:target {
+  background-color: #4dad5b;
+}
+#li-7:target a span {
+  color: white;
+}
+
+nav .li-7 a span {
+  color: #4dad5b;
+}
+
+nav {
+  letter-spacing: .05em;
+  font-family: 'Passion One', cursive;
+  font-size: 1.2em;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  height: 100px;
+}
+nav ul {
+  width: 100%;
+  background-color: #313131;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  border-radius: 0 0 12px 12px;
+}
+@media screen and (max-width: 620px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+}
+nav ul li {
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li:last-child {
+  border-radius: 0 0 12px 0;
+  border-right: none;
+}
+nav ul li:first-child {
+  border-radius: 0 0 0 12px;
+}
+nav ul li a {
+  text-decoration: none;
+  flex-wrap: wrap;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 2em;
+  color: #fff;
+}
+nav ul li a span {
+  width: 100%;
+}
